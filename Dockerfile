@@ -10,4 +10,4 @@ RUN apt-get update && \
 RUN pip install shadowsocks==2.8.2
 
 # Configure container to run as an executable
-ENTRYPOINT ["/usr/local/bin/local"]
+ENTRYPOINT ["/usr/local/bin/sslocal"]
